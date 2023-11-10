@@ -1,0 +1,64 @@
+<!--Student name: Alessandra Prunzel Kittlaus
+    File name: Lab 4
+    Date: 12/11/2023
+    Section: CST8285_331
+    Brief Description: This webpage .....  -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Alessandra Prunzel Kittlaus">
+        <title> Lab 4 - JavaScript 1 </title>
+        <!-- <link rel="stylesheet" href="reset.css"> -->
+        <link rel="stylesheet" type="text/css" href="form.css">
+        <script src="js/script.js" defer></script>
+    </head>
+
+<body>
+        <h1>Weekly Kitten Pictures Subscription</h1>
+    
+    <hr>
+
+    <form class="form" action="submit_form.php" method="post">
+
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="text" id="email" name="email" class="fillUpBox">
+        </div>
+
+        <div class="form-group">
+            <label for="username">User Name:</label>
+            <input type="text" id="username" name="username" class="fillUpBox">
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="fillUpBox">
+        </div>
+
+        <div class="form-group">
+            <label for="confirmPassword">Re-type Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" class="fillUpBox">
+        </div>
+
+        <div>
+            <input type="checkbox" id="receiveEmails" name="receiveEmails">
+            <label for="receiveEmails">I agree to receive Weekly Kitten Pictures newsletters</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="agreeTerms" name="agreeTerms">
+            <label for="agreeTerms">I agree to the terms and conditions</label>
+        </div>
+
+        <div id="buttons">
+        <button type="submit" id="buttonSubmit">Sign Up</button>
+        <button type="reset" id="buttonReset">Reset</button>
+        <div>
+    </form>
+
+  
+</body>
+</html>

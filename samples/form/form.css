@@ -1,0 +1,74 @@
+/** Student name: Alessandra Prunzel Kittlaus
+    File name: Lab 4
+    Date: 12/11/2023
+    Section: CST8285_331
+    Brief Description: This webpage ..... */
+
+/* * {
+  border: red 1px solid
+} */
+
+
+body {
+    margin-left: 5em;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3em;
+}
+
+hr {
+  margin-right: 7em;
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1200px;
+}
+
+.fillUpBox {
+  height: 3em;
+  width: 100%; /* Make the input box take up all available width
+  box-sizing: border-box; /*make the box does not pass the div limit size*/
+} 
+
+
+#buttonSubmit,
+#buttonReset {
+  color: #ffffff;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  height: 40px;
+  margin-top: 1em;
+  padding: 10px 16px;
+  text-align: center;
+  transition: color 100ms;
+}
+
+#buttonSubmit {
+  background-color: rgb(32, 76, 207);
+}
+
+#buttonReset {
+  background-color: rgb(220, 20, 20);
+}
+
+#buttonSubmit:hover,
+#buttonReset:hover {
+  background-color: #f082ac;
+}
+
+.error {
+  color: red;
+
+}
